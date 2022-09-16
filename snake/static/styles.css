@@ -1,0 +1,64 @@
+input {
+    background-color : #24292E !important;
+    color : rgb(255, 255, 255)!important;
+    border-color: aliceblue;
+}
+.foreground {
+    padding : 2% 0.5%;
+    text-align : center;
+    background-color : #24292E;
+    color : rgb(255, 255, 255)!important;
+    border-radius : 0.9em;
+    margin : auto;
+}
+body {
+    background-color: #0e1116;
+}
+small {
+    color : red!important;
+}
+@media screen and (max-width : 500px) {
+    .foreground {
+        position : absolute;
+        left : 20vw;
+        top : 30vh;
+        right : 20  vw;
+        width : 60vw;
+        height : 40vh;
+        bottom : 30vh;
+        padding : 10% 10% 6% 10%; 
+    }
+}
+@media screen and (min-width : 500px) {
+    .foreground {
+        position: absolute;
+        top : 30%;
+        left : 40%; 
+        height : 30%;
+        width : 20%;
+    }
+}
+#background-image {
+    width : 100vw;
+    height : 100vh;
+}
+.login {
+    opacity : 0.6;
+}
+.option {
+    width : 60vw;
+    position : absolute;
+    left : 20vw;
+}
+@media screen and (max-width : 1140px) {
+    .option {
+        position : absolute;
+        width : 60vw;
+        left : 15vw;
+        height : 60vh;
+        top : 20vh;
+    }
+    img {
+        width : 70%;
+    }
+}
