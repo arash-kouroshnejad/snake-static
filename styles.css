@@ -62,7 +62,7 @@ small {
         width : 70%;
     }
 }
-gameScreen {
+#gameScreen {
     
     display : none;
     
