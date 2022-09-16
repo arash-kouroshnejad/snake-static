@@ -6,16 +6,14 @@ knee[1] = undefined;
 
 
 function selectSnake(el) {
+    document.getElementById("snake-selector").style.display = "none";
+    document.getElementById("gameScreen").style.display = "block";
     i = 1;
     q = 1;
     knee = [];
 
     // remove modal
     modal();
-
-
-    // load resources
-    gameScreen.innerHTML = ajax.responseText;
 
     // Grabbing canvas reference
     canvas = document.getElementById("canvas")
